@@ -6,6 +6,6 @@ export default class Main extends React.Component{
     }
 
     render (){
-        return (<div>esto es el header</div>)
+        return (<div>Main</div>)
     }
 }

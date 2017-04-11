@@ -9,7 +9,7 @@ export default class App extends React.Component {
 
     render() {
         return (<div>
-            <PostList posts={this.state.posts} onVote={this.onVote} onPostSubmit={this.onPostSubmit} />
+
         </div>);
     }
 }
