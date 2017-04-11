@@ -6,6 +6,20 @@ export default class Sidebar extends React.Component{
     }
 
     render (){
-        return (<div>Sidebar</div>)
+        return (<div className="sidebar" style={styles.layout} {...this.props} />)
     }
 }
+
+const styles = {
+    layout: {
+        width:'15%',
+        float:'left',
+        backgroundColor:'#ccc'
+    },
+    ul:{
+        li:{
+            color:'red',
+            textDecoration:'underline'
+        }
+    }
+};
