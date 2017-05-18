@@ -6,7 +6,8 @@ export default class Header extends React.Component{
     }
 
     render (){
-        return (<div>esto es el header</div>)
+        return (<div className="header" >
+            <h1 {...this.props} />
+        </div>)
     }
 }
-
